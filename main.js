@@ -50,13 +50,3 @@ for (var i=2; i<process.argv.length; ++i) {
   arr.push(process.argv[i]);
 }
 console.log(makeIntsStrings(arr));
-
-/*Completed task.
-
-Bugs Found and fixed:
-        Question said that it can input integers. I did not account for negative numbers. Fixed with a simple negative
-        (<0) check.
-Additions:
-  - Made the functionality of the solution a function for potential later use.
-  - Now able to take in user input from the command line like in the question
-  - Added some comments in the code*/
